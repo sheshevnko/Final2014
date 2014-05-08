@@ -6,7 +6,13 @@
 	<title>Bienvenidos | La Vid Verdadera Culiacán</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/owlcarousel/owl.carousel.css">
+	<link rel="stylesheet" href="css/owlcarousel/owl.theme.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<script src="css/assets/js/jquery-1.11.0.min.js"></script>
+	<script src="css/owlcarousel/owl.carousel.js"></script>
 </head>
 <body>
 	<header>
@@ -19,7 +25,14 @@
 		<h1>La Vid Verdadera</h1>
 	</header>
 	<section id="slide">
-		
+		<div id="owl-example" class="owl-carousel">
+  			<div> <img src="img/p1.jpg" alt=""></div>
+  			<div> <img src="img/p2.jpg" alt=""></div>
+  			<div> <img src="img/p1.jpg" alt=""></div>
+  			<div> <img src="img/p2.jpg" alt=""></div>
+  			<div> <img src="img/p1.jpg" alt=""></div>
+  			<div> <img src="img/p2.jpg" alt=""></div>
+		</div>
 	</section>
 	<section id="bienvenidos">
 		<h2>BIENVENIDO <br /> A NUESTRO SITIO</h2>
@@ -36,8 +49,10 @@
     		</div>
 	</section>
 	<section id="visitanos">
-		
+		<h2>VISÍTANOS</h2>
 	</section>
+		<p class="direccion">Blvd. Emiliano Zapata #3125 Local 13a <br /> Col. Lomas del Boulevard <br /> Culiacán Sinaloa.</p>
+	
 	<section id="map">
 		<h2>MAPA</h2>
 	</section>
@@ -51,14 +66,21 @@
 		<p>/Lavidculiacan</p>
 	</section>
 	<section id="boletin">
-	<h2>SUSCRÍBETE A NUESTRO <br /> BOLETÍN</h2>
-	<input type="email" id="user-email" placeholder="Email" required/>
+
+	<p class="slim">SUSCRÍBETE A NUESTRO</p><h2 class="boletin">BOLETÍN</h2>
+	<input type="email" id="user-email" placeholder="Email"  required/>
 	</section>
 	<footer>
-		<p class="dr">Derechos Reservador 2014</p>
+		<p class="dr">Derechos Reservados 2014</p>
 		<p class="sello">La Vid Verdadera</p>
-		<p class="desarrollado">Misióndsgn</p>
+		<p class="desarrollado">Desarrollado por: <a href="#">Misióndsgn</a></p>
 	</footer>
+	<script>
+		$(document).ready(function(){
+  		$("#owl-example").owlCarousel();
+		});
+	</script>
+  
 
 </body>
 </html>
