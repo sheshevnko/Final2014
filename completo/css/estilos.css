@@ -1,7 +1,8 @@
 body{font-size:20px;text-align:center;width:100%}
-h1{color:#e86566;margin:.1em 0 1em}
+h1{color:#e86566;font-family:'Open Sans',sans-serif;margin:.1em 0 .3em}
 h2{color:#fff}
 footer{font-family:'Open Sans',sans-serif}
+header{margin:0;padding:0}
 #articulos{background:#adcbe9;padding:10px}
 #bienvenidos{background:#af70af;padding:10px}
 #boletin{background:#e86566;padding:10px}
@@ -14,17 +15,18 @@ footer{font-family:'Open Sans',sans-serif}
 #redessociales_header,#redessociales_header a{color:#fff}
 #redessociales_header i{margin:0 auto;opacity:.6}
 #redessociales_header i:hover{opacity:1}
-#slide{padding:20px 0}
+#slide{margin-top:0;padding:0}
 #visitanos{background:#a9b2b2;padding:10px}
 .boletin{margin:0 0 10px 0}
 .cuadros{display:inline-block;height:30px;font-size:1.5em;margin:1em .1em 0;padding:10px;width:30px}
 .dr{color:#000;margin-bottom:0}
 .desarrollado{color:#a9b2b2;font-size:.8em;margin-top:0}
 .desarrollado a{text-decoration:none;color:#a9b2b2}
+.direccion{font-family:'Open Sans',sans-serif;font-size:.8em}
 .lila{background:#af70af}
-.rs{color:#fff;margin:0 5% 0 10%}
+.rs{color:#fff;margin:0 5% 0 5%}
 .salmon{background:#e86566}
 .sello{color:#e86566;font-size:2em;margin-bottom:0;margin-top:0}
 .slim{color:#fff;font-family:'Open Sans Condensed',sans-serif;font-size:.9em;margin-bottom:0;margin-top:1px}
 .videoresponsive{height:0;margin:0 auto;padding-top:56.25%;position:relative;width:100%}
-.videoresponsive iframe{height:100%;left:0;position:absolute;top:0;width:100%}
+.videoresponsive iframe{height:100%;left:0;position:absolute;top:0;width:99%}

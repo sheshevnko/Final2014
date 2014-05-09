@@ -1,7 +1,1 @@
-<code>::-webkit-input-placeholder { /* WebKit browsers */ color: #999; }</code>
-
-<code> :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #999; } </code>
-
-<code>::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #999; } </code>
-
-<code>:-ms-input-placeholder { /* Internet Explorer 10+ */ color: #999; }</code>
+<code>::-webkit-input-placeholder{color:#999}</code>,<code> :-moz-placeholder{color:#999}</code>,<code>::-moz-placeholder{color:#999}</code>,<code>:-ms-input-placeholder{color:#999}
